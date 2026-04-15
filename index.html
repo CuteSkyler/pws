@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PWS Havo</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./code/praktisch.js"></script>
+</head>
+<body>
+    <!-- <div id="achtergrondrommel" aria-details="Let hier niet op, aub.">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div> -->
+    <header>
+        <h1>PWS Havo Natuurkunde</h1>
+        <ol>
+            <!-- <li>
+                <h2>Wat doet een computer om woorden naar iets visueels om te zetten?</h2>
+            </li> -->
+            <li>
+                <h2>Wat is het pad van een electron gedurende een computercalculatie?</h2>
+            </li>
+        </ol>
+        <h6>Deze pagina is te bekijken zonder JavaScript aan of een internetverbinding.</h6>
+    </header>
+    <main>
+        <div class="tekstgedeelte">
+            <h2>Voorkennis</h2>
+            <div>
+                <h3>Wat is een electron?</h3>
+                <div class="Uitleg">
+                    <div>
+                        <h4>Waar bestaat een electron uit?</h4>
+                        <input type="checkbox" class="opener">
+                        <div class="VerdereUitleg">
+                            <p>
+                                Een elektron, is een elementair deeltje, elementair betekende dat het niet verder verdeeld kan worden in andere gedeeltes (zover de wetenschap nu kan meten). Dit deeltje zorgt bijvoorbeeld voor elektrische geleiding/stroom, is het polair van de proton in het atoom, en heeft een lading van -1e (min een electronlading) (-1.6022x10^-19 Coulomb).
+                                <br>
+                                <a href="#bron1" aria-details="1">
+                                    <img src="./afbeeldingen/silicium.png">
+                                </a>
+                                <br>
+                                Een electron is deel van de leptonen fermionen familie en daaronder weer uit de leptonen. Ze worde gezien als de "eerste generatie aan materie", waarbij het een van de bouwblokken is van alle materie die er is.
+                                <br>
+                                <a href="#bron5" aria-details="5">
+                                    <img src="./afbeeldingen/materie.png">
+                                </a>
+                                <br>
+                                Wanneer het zich bevindt bij een magnetisch veld ondervinden ze Lorenzkrachten. Dit kan bijvoorbeeld toepassing hebben voor het opwekken van elektrische energie vanuit bewegingsenergie, waarbij magneten een magnetisch veld vormen bij rotatie en daarbij dan weer energie kunnen opwekken vanuit beweging.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="deler"></div>
+                <h3>Wat is een CPU?</h3>
+                <div class="Uitleg">
+                    <div>
+                        <h4>Waar staat CPU voor?</h4>
+                        <input type="checkbox" class="opener">
+                        <div class="VerdereUitleg">
+                            <p>CPU is een afkorting en staat voor <i>Central Processing Unit</i>. Of in het Nederlands, <i>Centrale Processie Eenheid</i>.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <h4>Wat doet een CPU?</h4>
+                        <input type="checkbox" class="opener">
+                        <div class="VerdereUitleg">
+                            <p>
+                                Voor elke computer is een centrale processor nodig om computaties te hanteren. Denk aan een <i>Calculator</i>, waarbij een mini, energie efficiente processor in zit om berekeningen te hanteren.
+                                <br>
+                                <br>
+                                Terwijl een CPU goed is voor simpele brekeningen, is het niet goed voor tegelijkertijde complexe berekeningen. De CPU is goed voor regelrechte, eenstapscalculaties, berekeningen die stapsgewijs worden uitgevoerd. Een GPU (of Grafische Processie Eenheid) is juist goed in tegelijkertijdse berekeningen, zoals het berekenen van wat één van de miljoenen pixels op een beeldscherm moet zijn in een videospel.
+                                <br>
+                                <br>
+                                <i class="notitie">Voor een standaard beeldscherm is het 2,1 miljoen pixels en voor een 4K UHD scherm is het 8,3 miljoen. Vermenigvuldigd met de verversingssnelheid is hoe veel berekeningen een GPU moet doen om pixels te laten zien op het beeldscherm. Een standaard beeldscherm heeft een verversingssnelheid van 60. (60Hz of 1/60e seconde). Een standaardbeeldscherm doet dus 124 miljoen berekeningen elke seconde. -- Gelukkig heeft een goedkope GPU als de <a href="https://www.techpowerup.com/gpu-specs/geforce-gt-710.c1990">GT710</a> een snelheid van 954MHz (954 miljoen verversingen), dus 954 miljoen berekeningen per seconde, en kan dus gemakkelijk een beeld laten zien op een monitor zonder te veel andere berekeningen achteraf, maar zou wel moeite hebben met een 4K UHD beeldscherm op een standaard verversingssnelheid, waarbij het 500 miljoen berekeningen kost, de helft van zijn berekensnelheid. Het zou onmogelijk zijn voor de <a href="https://www.techpowerup.com/gpu-specs/geforce-gt-710.c1990">GT710</a> om een hoge snelheidsmonior van 144Hz te kunnen opereren want dat zou 1,2 miljard berekeningen kosten, wat net te hoog is (circa 70MHz) ervoor.</i>
+                                <br>
+                                <br>
+                                Een CPU zou gemakkelijk een standaardbeeldscherm kunnen opereren mits het goed stapsgewijs berekenbaar is, want CPU's opereren in de GHz in plaats van MHz, waarbij <a href="https://www.tomshardware.com/pc-components/cpus/core-i9-14900kf-overclocked-to-9-13-ghz-to-become-the-highest-clocked-cpu-of-all-time-13-mhz-faster-than-the-previous-record-holder">het huidigste record 9.13GHz is</a>.
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <h4>Wat zijn de onderdelen van een CPU?</h4>
+                        <input type="checkbox" class="opener">
+                        <div class="VerdereUitleg">
+                            <p>
+                                De CPU architectuur, als vergroot naar macro schaal, zijn eigenlijk niks anders dan standaard elektrische circuit componenten, voornamelijk transistoren. De moeilijheidsgraad van deze componenten maken, in elkaar sleutelen, laten werken en alles in een component zetten is gedurende de jaren steeds moeilijker geworden.
+                                <br>
+                                <br>
+                                Om de schaal te zien van hoe moeilijk het steeds maar wordt om CPU's in elkaar te zetten zijn hier CPU's door de jaren heen. (Dit zijn niet perse directe tijdlijn verschuivingen.)
+                                <br>
+                                <a href="#bron11" aria-details="11">
+                                    <img src="./afbeeldingen/cpu1.png">
+                                </a>
+                                <br>
+                                <i>DEC M8045 board with gold plated Mostek RAM DIPs from the late 70's.</i> - Een bord waarbij indivuele chips zich gedragen als moderne transistoren voor logica berekeningen.
+                                <br>
+                                <br>
+                                <a href="#bron11" aria-details="11">
+                                    <img src="./afbeeldingen/Intel8008.png">
+                                </a>
+                                <br>
+                                Een Intel 8008, een 8-bit, 10000nm-transistor (0,001cm) CPU geintroduceerd in 1972. Deze is gemaakt in 1979. De CPU heeft een verversingsfequentie van 800kHz. Dit is maar 2% van wat een normale moderne CPU zou kunnen doen op een frequentie van 4,0GHz. Alleen heeft deze ook maar de mogelijkheid om waarden tussen de 0 en 256 te berekenen. Terwijl we vandaag de dag tussen de 0 en 1,8×10¹⁹ waardes kunnen berekenen, dus de hoeveelheid Intel-8000's in een moderne CPU zijn miljarden en miljarden aan.
+                                <br>
+                                <br>
+                                <a href="#bron13" aria-details="13">
+                                    <img src="./afbeeldingen/i386.png">
+                                </a>
+                                <a href="#bron14" aria-details="14">
+                                    <img src="./afbeeldingen/i386_2.png">
+                                </a>
+                                <br>
+                                De Intel-i386, een van de eerste 32-bit CPUs geintroduceerd op de markt in 1985. Het gebruikt de 1500nm (0,00015cm) transistor technologie, een 85% reductie in grootte, waardoor er meer transistoren in de CPU passen. Hierbij zit dan ook een frequentie van 16MHz bij, een 1900% verbetering in alleen maar de frequentie. De verbetering van 8- naar 32-bit maakt dit een exponentiele verbetering. Hierbij valt ook op te merken dat de hoeveelheid pins aan de onderkant van de chip is verveelvoudigd om de snelheid aan berekeningen bij te benen.
+                                <br>
+                                <br>
+                                <a href="#bron15" aria-details="15">
+                                    <img src="./afbeeldingen/intel_pent4.png">
+                                </a>
+                                <br>
+                                De Intel Pentium 4, iets wat er meer uit ziet als een moderne CPU. Uitgebracht in 2001, gebruikt de 180nm (0,000018cm) transistor technologie. Het heeft in totaal 42M transistoren, op een frequentie van 1,3GHz, terwijl het nog steeds de 32-bit architectuur gebruikt voor berekeningen. Een 8000% verbetering t.o.v. de i386.
+                                <br>
+                                <br>
+                                <a href="#bron16" aria-details="16">
+                                    <img src="./afbeeldingen/intel_i.png">
+                                </a>
+                                <br>
+                                De Intel Core-i serie aan CPU's is wat de meeste mensen vandaag de dag nog steeds gebruiken als hun CPU aan keuze. Het gebruikt de 45nm (0,0000045cm) transistor architectuur, en gaat van 1,9GHz naar het huidige maximaal behaalde 9GHz bij een bijbehorende minimale operatie wattage van 80W. Deze lijn aan CPU's zit bijvoorbeeld in alle Apple laptops voor de introductie van hun eigen ARM-CPU lijn toen Apple nog de x86 architectuur gebruikte. Terwijl Intel nu de naam heeft veranderd van hun moderne CPU's naar alleen Intel iX, waarbij X het niveau aan CPU-kracht is, is het nog steeds dezelfde 45nm transistor technologie.
+                                <br>
+                                <br>
+                                <br>
+                                Om echt te laten zien hoe minescuul dit daadwerkelijk is is hier een interactieve weergave. Hierbij is de schaal t.o.v. een vingernagel vergeleken met de grootte van een transistor in een CPU de bijbehorende transistor techniek. Hierbij is alles (behalve de nagel naar de eerste transistor want dat zou 1000000% ingezoemd zijn) op schaal van elkaar.
+                            </p>
+                                <div class="praktisch" id="derde">
+                                    <div class="binnenin">
+                                        <form>
+                                            <div class="knop" id="een">
+                                                <input type="radio" name="grootte" checked>
+                                                <label>1cm</label>
+                                            </div>
+                                            <div class="knop" id="twee">
+                                                <input type="radio" name="grootte">
+                                                <label>10000nm</label>
+                                            </div>
+                                            <div class="knop" id="drie">
+                                                <input type="radio" name="grootte">
+                                                <label>1500nm</label>
+                                            </div>
+                                            <div class="knop" id="vier">
+                                                <input type="radio" name="grootte">
+                                                <label>180nm</label>
+                                            </div>
+                                            <div class="knop" id="vijf">
+                                                <input type="radio" name="grootte">
+                                                <label>45nm</label>
+                                            </div>
+                                            <div id="balk"></div>
+                                        </form>
+                                        <div id="afbeeldingen">
+                                            <div class="afbeelding" id="afbeeldingA"></div>
+                                            <div class="afbeelding" id="afbeeldingB"></div>
+                                            <div class="afbeelding" id="afbeeldingC"></div>
+                                            <div class="afbeelding" id="afbeeldingD"></div>
+                                            <div class="afbeelding" id="afbeeldingE"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            <p>
+                                Hiermee is te laten zien dat men zijn eigen CPU maken niet echt een haalbaar iets is, daarom zijn er nu ook maar twee a drie bedrijven die comsumenten CPU's op de markt brengen. (AMD en Intel; Apple die meetelt als laptop consumenten afdeling. De x86 architectuur van reguliere desktop computers ligt compleet bij AMD en Intel.) De ARM-architectuur is voornamelijk voor Qualcomm, Samsung en Apple, waarbij het voornamelijk gaat over mobiele aparaten zoals mobiele telefoons.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="deler"></div>
+                <h3>Wat is een transistor?</h3><div class="Uitleg">
+                    <div>
+                        <h4>De eerste transistor</h4>
+                        <input type="checkbox" class="opener">
+                        <div class="VerdereUitleg">
+                            <a href="#bron9" aria-details="9">
+                                    <img src="./afbeeldingen/transistor.png">
+                                </a>
+                            <p>
+                                De functie van de allereeste transistor is dat een stroomlading door iets heen kon wanneer een andere ingangstroom. Hierdoor is de originele stroom afhankelijk van een andere lading. Dit is de definite van een transistor. - Hieronder is een praktisch voorbeeld van hoe een transistor in werking gaat. Probeer om de uitgangslading aan te krijgen.
+                            </p>
+                            <div class="praktisch" id="eerste">
+                                <div class="binnenin">
+                                    <div class="extra" id="d">
+                                        <img src="./afbeeldingen/transistor2.png">
+                                    </div>
+                                    <div class="knop" id="een">
+                                        <input type="checkbox">
+                                        <label>Ingangstroom</label>
+                                    </div>
+                                    <div class="knop" id="twee">
+                                        <input type="checkbox">
+                                        <label>Extra lading</label>
+                                    </div>
+                                    <div class="uitgang" id="uitgang">
+                                        <label class="check">✅</label>
+                                        <label>Uitgangslading</label>
+                                    </div>
+                                    <div class="lijn" id="a"></div>
+                                    <div class="lijn" id="b"></div>
+                                    <div class="lijn" id="c"></div>
+                                </div>
+                            </div>
+                            <p>
+                                Dit is in de praktijk hoe alle transistors werken. Huidige CPU's hebben deze op microschaal waarbij individuele electronen deze in werking brengen.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="deler"></div>
+        
+        <div class="tekstgedeelte">
+            <h2>De 'analoge' calculatie</h2>
+            <div class="Uitleg">
+                <div>
+                    <h4>Calculeren 'zonder rekenmachine'</h4>
+                    <input type="checkbox" class="opener">
+                    <div class="VerdereUitleg">
+                        <p>
+                            Hoe bereken je 1 + 1 zonder over de calculatie na te hoeven denken of een rekenmachine erbij te pakken? Een manier om dit te visualiseren is bijvoorbeeld via domino steentjes, hiermee valt een circuit te maken die electronische circuiten nabootst.
+                            <br>
+                            <br>
+                            Een voorbeeld hiervan is de 'XOR gate' (geen van beiden). Bij een 'XOR gate' mag geen van de invoegingen waar zijn, zo wel, dan is het beeld ervan onwaar. (Links afgebeeld het IEEE/Amerikaans standaard en rechts de Nederlandse norm)
+                            <br>
+                            <br>
+                            <a href="#bron2" aria-details="2">
+                                <img src="./afbeeldingen/XOR.png">
+                            </a>
+                            <br>
+                            Een nog andere manier is het op een manier die Michael Stevens, bekend van YouTube kanaal, VSauce, het deed. Via een "digitale" (waarbij een verbinding alleen maar aan of uit kan zijn) connectie met mensen, maakte hij een neuraal kanaal die nummers kon herkennen. (18:30)
+                            <br>
+                            <br>
+                            <video class="youtube-video" controls>
+                                <source src="./video/rA5qnZUXcqo.mp4#t=1130">
+                            </video>
+                            <br>
+                            <br>
+                            Een mens, wat hierbij een neuron voorstelt, in de beginfase, gaat opstaan of blijft zitten. Opstaan als er iets op hun notitie staat en blijft zitten mits het blanco blijft. Daarna, mits hun specifieke drie gaan staan, gaan de mensen in rij twee staan of zitten. - Dit heeft overeenkomsten met een AND-gate/EN-gate in een computer circuit. Waarbij A- en B representatief zijn voor de mensen in de voorste rij en Y de mensen in de rij erachter.
+                            <br>
+                            <a href="#bron4" aria-details="4">
+                                <img src="./afbeeldingen/AND.png">
+                            </a>
+                            <br>
+                            Uiteindelijk is het ook zo dat op het eind bij het herkennen van een cijfer, mensen die opstaan uiteindelijk ook weer gaan zitten. Hierbij is het zo wanneer iemand opstaat voor hun maar iemand anders staat ook weer op dan gaat de originele persoon weer zitten. Dit heeft overeenkomsten met een XOR-gate/NOCH-gate. Opnieuw, waarbij A- en B de personen ervoor voorstellen en de Y de persoon achter.
+                            <br>
+                            <a href="#bron2" aria-details="2">
+                                <img src="./afbeeldingen/XOR.png">
+                            </a>
+                            <br>
+                            Hier is een praktisch voorbeeld van een NOCH-gate. Probeer om de uitgangslading te activeren. Doe dit door maar 1 ervan aan te laten.
+                        </p>
+
+                            <div class="praktisch" id="tweede">
+                                <div class="binnenin">
+                                    <div class="extra" id="d">
+                                        <img src="./afbeeldingen/XOR.png">
+                                    </div>
+                                    <div class="knop" id="een">
+                                        <input type="checkbox">
+                                        <label>Ingangstroom</label>
+                                    </div>
+                                    <div class="knop" id="twee">
+                                        <input type="checkbox">
+                                        <label>Ingangstroom</label>
+                                    </div>
+                                    <div class="uitgang" id="uitgang">
+                                        <label class="check">✅</label>
+                                        <label>Uitgangslading</label>
+                                    </div>
+                                    <div class="lijn" id="a"></div>
+                                    <div class="lijn" id="b"></div>
+                                    <div class="lijn" id="c"></div>
+                                </div>
+                            </div>
+                        <p>
+                            Uiteindelijk wordt er ook geëxperimenteerd om te zien wat er gebeurt bij ruis bij het signaal of een compleet onbegrijpelijk signaal, waarbij "het kleine brein" nog steeds kon aannemen dat het een getal was, desondanks dat het alleen maar ruis als input had gekregen.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h4>Het domino model</h4>
+                    <input type="checkbox" class="opener">
+                    <div class="VerdereUitleg">
+                        <p>
+                            Het domino model berust op het feit dat domino's een voor een vallen, de een naar de ander, en lijkt veel op hoe elektronen- of waterstroming werken. Zoals te zien van Matt Parker van Stand-up Maths / Numberphile.
+                            <br>
+                            <br>
+                            <video class="youtube-video" controls>
+                                <source src="./video/lNuPy-r1GuQ.mp4">
+                            </video>
+                            <br>
+                            <br>
+                            Hoe domino's zouden calculeren is door het annuleren dat andere domino steentjes omvallen door zelf om te vallen. Hierbij kan je alle klassieke circuits maken van standaard elektronica zoals de AND/EN-gate, XOR/NOCH-gate, et cetera. Deze kan je dan ook bij elkaar toevoegen, mengen en mixen tot een geheel circuit. Iets wat Matt Parker ook heeft gedaan, maar is niet van belang. - Maar zoals hij zelf zegt in de video, <i>"'I do everything from the terminal' [] but you're still interacting with the software level of the computer. - How is the computer actually executing what you're telling it to do. Right down, at the very bottom -- this is the absolute fundamental layer of all computing []."</i>
+                            <br>
+                            <br>
+                            Het domino model is uit te breiden naar andere platformen die niet domino's gebruiken maar wel dezelfde principes hebben. Platformen zoals Minecraft, Factorio of andere spellen met logica berekeningen. Zolang je de logica-berekeningen hebt om transistoren na te bootsen heb je de mogelijkheid om alles wat computers te doen na te bootsen -- soms in computers zelf. Zo hebben bijvoorbeeld sommigen gehele werkende computers gemaakt, in een spel, draaiend op een computer. Waarbij <i>Assembly</i> werd gebruikt, de meest basis vorm aan programmeren van de letterlijke bits aan de computer geven als programma, om programma's te maken in computers-in-computers-spellen.
+                            <br>
+                            <br>
+                            <video class="youtube-video" controls>
+                                <source src="./video/CW9N6kGbu2I.mp4">
+                            </video>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <h4>Binair</h4>
+                    <input type="checkbox" class="opener">
+                    <div class="VerdereUitleg">
+                        <p>
+                            Men in de westerse wereld is bekend met het decimaal systeem, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. Maar er zijn andere systemen aan tellen. Zo is er de duodecimaal (basis 12), octmaal (basis 8) en wat voornamelijk gebruikt wordt in elektronica en dergelijke systemen aan logica is het binaire (basis 2) systeem.
+                            <br>
+                            <br>
+                            Om van een decimaal naar een basis X getal te gaan zou je het moeten delen door de machten van X en de rest ervan behouden, bijvoorbeeld;
+                            <br>
+                            <br>
+                            <div class="conversie">
+                                <p><b>794</b></p>
+                                <p><b>(b10)</b></p>
+                                <p class="lager"><b>?</b></p>
+                                <p class="lager"><b>(b2)</b></p>
+                            </div>
+                            <div class="conversie">
+                                <p>10^2</p>
+                                <p>10^1</p>
+                                <p>10^0</p>
+                                <p class="lager">7</p>
+                                <p class="lager">9</p>
+                                <p class="lager">4</p>
+                            </div>
+                            <p>
+                                Als we 794 delen door de dichtsbijzijnste kracht van 2, wat 512 is, en de rest behouden krijgen we 1r282. - Als we dan de 282 weer delen door de dichtsbijzijnste macht van 2, wat 256 is, en de rest behouden is het 1r26. Als we dit weer doen, 2 delen door de dichtsbijzijnste macht van 2, wat 16 is, krijgen we 1r10, opnieuw, 1r2, opnieuw 1.
+                                <br>
+                                <br>
+                                We hebben dus een 512, wat 2^9 is, een 256, wat 2^8 is, een 16, wat 2^4 is, een 8, wat 2^3 is en een 2, wat 2^1 is.
+                            </p>
+                            <div class="conversie">
+                                <p>2^9</p>
+                                <p>2^8</p>
+                                <p>2^7</p>
+                                <p>2^6</p>
+                                <p>2^5</p>
+                                <p>2^4</p>
+                                <p>2^3</p>
+                                <p>2^2</p>
+                                <p>2^1</p>
+                                <p>2^0</p>
+                                <p class="lager">1</p>
+                                <p class="lager">1</p>
+                                <p class="lager">0</p>
+                                <p class="lager">0</p>
+                                <p class="lager">0</p>
+                                <p class="lager">1</p>
+                                <p class="lager">1</p>
+                                <p class="lager">0</p>
+                                <p class="lager">1</p>
+                                <p class="lager">0</p>
+                            </div>
+                            <p>
+                                Hierbij hebben we een decimaal getal geconverteerd naar een binair getal. Van 794 naar 1100011010. De omgekeerde conversie is hoe computes dan weer hun interne geheugen weer omzetten in ons gebruikelijk decimaal systeem.
+                                <br>
+                                <br>
+                                Dit is handig omdat de meeste (niet-quantum) computers werken met een digitaal systeem, waarbij statussen alleen kunnen wisselen tussen aan- en uit. - Het is te merken bij het interactieve gedeelte dat het decimaal getal altijd onder een macht van 2 uitkomt als je alles onder een macht aan hebt staan. Dit is omdat je ook 0 erbij moet tellen als een optie. (Dus 2^4+2^3+2^2+2^1+2^0+1 = 2^5)
+                            </p>
+                            <div class="praktisch_alternatief">
+                                <div id="calculator">
+                                    <div class="knopje" id="acht">
+                                        <input type="checkbox">
+                                        <label>2^8</label>
+                                    </div>
+                                    <div class="knopje" id="zeven">
+                                        <input type="checkbox">
+                                        <label>2^7</label>
+                                    </div>
+                                    <div class="knopje" id="zes">
+                                        <input type="checkbox">
+                                        <label>2^6</label>
+                                    </div>
+                                    <div class="knopje" id="vijf">
+                                        <input type="checkbox">
+                                        <label>2^5</label>
+                                    </div>
+                                    <div class="knopje" id="vier">
+                                        <input type="checkbox">
+                                        <label>2^4</label>
+                                    </div>
+                                    <div class="knopje" id="drie">
+                                        <input type="checkbox">
+                                        <label>2^3</label>
+                                    </div>
+                                    <div class="knopje" id=twee>
+                                        <input type="checkbox">
+                                        <label>2^2</label>
+                                    </div>
+                                    <div class="knopje" id="een">
+                                        <input type="checkbox">
+                                        <label>2^1</label>
+                                    </div>
+                                    <div class="knopje" id="nul">
+                                        <input type="checkbox" checked>
+                                        <label>2^0</label>
+                                    </div>
+                                </div>
+                                <div id="resultaat">
+                                    <label>Binair</label>
+                                    <p class="resultaat" id="binair"></p>
+                                    <label>Decimaal</label>
+                                    <p class="resultaat" id="decimaal"></p>
+                                </div>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="deler"></div>
+        
+        <div id="tekstgedeelteOnder">
+            <div class="tekstgedeelte">
+                <h2>Het pad van een electron door een computer;</h2>
+                <p>
+                    <i>Om alles zo simpel mogelijk te maken gebruiken we een x86 Intel CPU, draaiende op 1GHz. We gaan op gelijkspanning omdat het beter voor te stellen is. Dit is bovendien ook een standaard computer met standaard computer onderdelen.</i>
+                </p>
+                <div class="segment">
+                    <p id="kabel-tekst">
+                        <a href="#bron21" aria-details="21">
+                            <img src="./afbeeldingen/stroom.png">
+                        </a>
+                        <br>
+                        <br>
+                        Beginnende bij de spanning vanuit de muur. - Deze stroom aan elektrische energie bestaat uit 230V wisselspanning op een verversingsfequentie van 50Hz <i class="notitie">(in Europa/Nederland)</i>. Hierbij is het zo dat de elektron elke seconde vijftig keer heen en weer beweegt. In plaats daarvan gebruiken we hierbij gelijkspanning omdat het gemakkelijker voor te stellen is. Bij het gebruik van een CEE7/17, CEE7/7 of de standaard Type F (zie afbeelding), kan het een maximale stroomsterkte aan van 16A. Een reguliere computer of laptop kan enkele van deze in gebruik nemen.
+                        <br>
+                        <br>
+                        De elektron gaat zogenaamd <i class="notitie">(Niet echt, dit is wisselspanning dus gaat het niet door de kabel heen maar verschuift zich heen en weer. Bij gelijkspanning is het wel zo dat het naar voren geleid wordt.)</i> door de kabel heen. Deze is vaak gemaakt van koper, vanwege de prijs-kwaliteit verhouding. Mits deze kabel goed geinstalleerd is, zal deze in een PSU <i class="notitie">(Power Supply Unit, oftewel voedingsbron)</i>.
+                        <br>
+                        <br>
+                        <a href="#bron26" aria-details="26">
+                            <img src="./afbeeldingen/psu.png">
+                        </a>
+                        <br>
+                        <br>
+                        De voedingsbron zorgt ervoor dat enige wisselstroom die er is, wat zo is over zowat de gehele aardbodem, wordt omgezet in een standaard voltage voor alle componenten in de computer. Dit verschilt per component. Modernere componenten, zoals NVIDIA 40xx GPU's, hebben 12V-2x6 verbindingskabels. Die, zoals de naam al aangeven, 12V geven met 2 bij 6, dus 12, verbindpunten. Helaas hebben deze kabels ook het probleem dat ze snel in de hens gaan, dus zijn ze nog niet overal standaard. Voor nu is het de 6-pin/6+2-pin standaard verbindingskabel.
+                        <br>
+                        <br>
+                        <a href="#bron27" aria-details="27">
+                            <img src="./afbeeldingen/12v26.png">
+                        </a>
+                        <br>
+                        <a href="#bron27" aria-details="27">
+                            <img src="./afbeeldingen/6pin.png">
+                        </a>
+                        <br>
+                        <br>
+                        En deze kabels zijn bedoeld voor GPU's en GPU processen, er zijn speciale kabels voor CPU doeleinden, zoals hieronder afgebeeld.
+                        <br>
+                        <br>
+                        <a href="#bron27" aria-details="27">
+                            <img src="./afbeeldingen/cpukabel.png">
+                        </a>
+                        <br>
+                        <br>
+                        Dit verbindt uiteindelijk dan met het moederbord via de CPU verbindingspoort, hieronder afgebeeld.
+                        <br>
+                        <br>
+                        <a href="#bron27" aria-details="27">
+                            <img src="./afbeeldingen/6pinconnector.png">
+                        </a>
+                        <br>
+                        <br>
+                        Deze geleidt stroom naar de CPU via het moederbord. Dit gaat via "PCB Traces", of "moederbord sporen". Moederborden zijn voornamelijk gemaakt van ongeleidelijk materiaal die geen stroom doorlaten, maar tussen de lagen heen zit geleidelijk materiaal zodat er stroom doorheen kan lopen. Dit is extreem handig voor complexe circuits en logistieke elektronica. Dit zorgt ook voor minder benodigdheden voor voor kabels, wat voor minder vervuiling zorgt maar wel voor minder goede reparatie voor individuelen.
+                    </p>
+                    <div id="ernaast">
+                        <div>
+                            <div id="electron"></div>
+                        </div>
+                        <div class="achtergrond" id="kabel"></div>
+                    </div>
+                </div>
+                <div class="segment">
+                    <p id="moederbord-tekst">
+                        <a href="#bron28" aria-details="28">
+                            <img src="./afbeeldingen/pcb.png">
+                        </a>
+                        <br>
+                        <br>
+                        De stroom gaat van de stroomingang via de kabels naar het moederbord. Dit gaat, zoals hiervoor besproken via de moederbord sporen geleidelijk naar de CPU. Hierdoor kan de CPU elektriciteit ontvangen die het specifiek kan 'aanvragen', en het niet hoeft te delen met andere onderdelen van de computer zoals het moederbord die de meeste onderdelen stroom geeft, sans PCI-onderdelen, harde schijven en CPU, deze krijgen hun eigen stroomvoorziening.
+                        <br>
+                        <br>
+                        Deze stroom wordt verdeeld over de verschillende onderdelen van de CPU. Hierbij is het belangrijk dat je verschil maakt tussen welke CPU je gebruikt, want dit verschilt enorm per bedrijf en zelfs per CPU generatie.
+                        <br>
+                        <br>
+                        <a href="#bron28" aria-details="28">
+                            <img src="./afbeeldingen/socket.png">
+                        </a>
+                        <br>
+                        <br>
+                        Hierbij zitten pins naar verschillende delen van de CPU die dan van stroom voorzien kunnen worden. Bijvoorbeeld een deel naar de cache <i class="notitie">(snelle CPU geheugen die alleen door de CPU benaderd kan worden)</i>, de Power Control Unit <i class="notitie">(stroomvoorzieningseenheid)</i>, PCIe-Agent <i class="notitie">(PCIe-voorzieningseenheid)</i> en natuurlijk de CPU-cores <i class="notitie">(CPU-bronnen, een deel van CPU's die zelfstandig calculaties kan doen. Dit is goed om aparte taken te doen buitenom singulaire taken zoals een rekenmachine zijn.)</i>
+                        <br>
+                        <br>
+                        <a href="#bron29" aria-details="29">
+                            <img src="./afbeeldingen/cores.png">
+                        </a>
+                    </p>
+                    <div id="ernaast">
+                        <div>
+                            <div id="electron"></div>
+                        </div>
+                        <div class="achtergrond" id="moederbord"></div>
+                    </div>
+                </div>
+                <div class="segment">
+                    <div>
+                        <p class="cpu-tekst">
+                            De elektron gaat vanaf de 'socket' de CPU binnen. Hierbij volgt het miljarden verschillende transistoren om van plek A naar plek B te komen. Hierbij is het nodig om te weten wat Assembly en zijnde instructies zijn.
+                            <br>
+                            <br>
+                            <b class="titel">Assembly</b> is de meest basis menselijk leesbare en begrijpelijke code die een machine gebruikt om alles te doen in CPU/GPU taal. Dit is om te begrijpen, als mens, wat er nou eigenlijk gebeurt in de CPU om elektronen van de CPU over te dragen naar RAM, of non-permanente geheugen. Dit is hoe een CPU gegevens kan verkrijgen of (terug)geven naar de computer.
+                            <br>
+                            <br>
+                            Er zijn enorm veel van deze basisinstructies, maar om het simpel te houden, houden we het dus ook met de meest basis van basisinstructies.
+                            <br>
+                        </p>
+                        <div class="conversie" id="assembly">
+                            <div class="rij">
+                                <p>ADD</p>
+                                <p>Voegt twee getallen toe.</p>
+                                <p>A + B = C</p>
+                            </div>
+                            <div class="rij">
+                                <p>DIV</p>
+                                <p>Deelt twee getallen.</p>
+                                <p>A / B = C</p>
+                            </div>
+                            <div class="rij">
+                                <p>MOV</p>
+                                <p>Verplaatst een getal ergens anders.</p>
+                                <p>A => C</p>
+                            </div>
+                            <div class="rij">
+                                <p>SUB</p>
+                                <p>Haalt twee getallen van elkaar af.</p>
+                                <p>A - B = C</p>
+                            </div>
+                            <div class="rij">
+                                <p>WAIT</p>
+                                <p>Wacht totdat iets afgelopen is.</p>
+                                <p>A...</p>
+                            </div>
+                            <div class="rij">
+                                <p>LOOP</p>
+                                <p>Herhaal tot, wordt ook gebruikt om terug te gaan naar een waarde.</p>
+                                <p>A ... B ... A</p>
+                            </div>
+                            <div class="rij">
+                                <p>GOTO</p>
+                                <p>Ga terug naar een waarde in de 'stack'.</p>
+                                <p>A ... B</p>
+                            </div>
+                            <label><a href="#bron31">Zie bron 31</a></label>
+                        </div>
+                        <p class="cpu-tekst">
+                            Terwijl er wel meer instructies bestaan, zijn dit de absolute basisinstructies. Gecompliceerdere instructies zijn er eigenlijk alleen maar om deze instructies korter op te schrijven. Alhoewel de SHFT (Shift) instructie wel een belangrijke is voor geoptilamiseerd delen van getallen. <i class="notitie">(Bijv. is delen door 4, twee bitshifts naar rechts toe. Dit is gemakkelijker voor een computer om te doen dan om iets echt te berekenen.)</i>
+                            <br>
+                            <br>
+                            Al deze instructies zorgen ervoor dat bepaalde transistoren open en dicht gaan zodat onze elektron een bepaald pad volgt die wij bepalen. Mits we het resultaat willen behouden, gaat deze elektron via de L3 cache, terug naar het moederbord om opgeslagen te kunnen worden via de RAM. Waarbij het weer teruggevraagd kan worden mits we deze waarde zouden willen gebruiken of veranderen.
+                            <br>
+                            <br>
+                            <a href="#bron32" aria-details="32">
+                                <img src="./afbeeldingen/cyclus.png">
+                            </a>
+                            <br>
+                            <br>
+                            Hierbij volgt een cyclus van het ophalen van informatie die nodig is, om dit om te zetten naar instructies voor de CPU, om dit dan ook uit te voeren en om dan het resultaat weer terug te voeren in het non-permanente geheugen. Dit doet dan de CPU van wanneer het aan staat totdat de computer uitgezet wordt/zichzelf uitzet.
+                            <br>
+                            <br>
+                            Hieronder is een voorbeeld van hoe een CPU de instructies verwerkt.
+                        </p>
+                        <div class="praktisch_alternatief">
+                            <div id="praktijk">
+                                <div id="berekenen">
+                                    <div class="conversie" id="geheugen">
+                                        <div class="rij" id="ram0">
+                                            <p>0:</p>
+                                        </div>
+                                        <div class="rij" id="ram1">
+                                            <p>1:</p>
+                                        </div>
+                                        <div class="rij" id="ram2">
+                                            <p>2:</p>
+                                        </div>
+                                        <div class="rij" id="ram3">
+                                            <p>3:</p>
+                                        </div>
+                                        <div class="rij" id="ram4">
+                                            <p>4:</p>
+                                        </div>
+                                        <div class="rij" id="ram5">
+                                            <p>5:</p>
+                                        </div>
+                                    </div>
+
+                                    <div id="selectieA">
+                                        <input type="radio" name="ramwaardeA" value="25" checked>0</input>
+                                        <input type="radio" name="ramwaardeA" value="79">1</input>
+                                        <input type="radio" name="ramwaardeA" value="35">2</input>
+                                        <input type="radio" name="ramwaardeA" value="64">3</input>
+                                        <input type="radio" name="ramwaardeA" value="95">4</input>
+                                        <input type="radio" name="ramwaardeA" value="3">5</input>
+                                    </div>
+                                    <div id="selectieB">
+                                        <input type="radio" name="instructie" value="+" checked>ADD</input>
+                                        <input type="radio" name="instructie" value="/">DIV</input>
+                                        <input type="radio" name="instructie" value="*">MUL</input>
+                                        <input type="radio" name="instructie" value="-">SUB</input>
+                                    </div>
+                                    <div id="selectieC">
+                                        <input type="radio" name="ramwaarde" value="25" checked>0</input>
+                                        <input type="radio" name="ramwaarde" value="79">1</input>
+                                        <input type="radio" name="ramwaarde" value="35">2</input>
+                                        <input type="radio" name="ramwaarde" value="64">3</input>
+                                        <input type="radio" name="ramwaarde" value="95">4</input>
+                                        <input type="radio" name="ramwaarde" value="3">5</input>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="ernaast">
+                        <div>
+                            <div id="electron"></div>
+                        </div>
+                        <div class="achtergrond" id="cpu"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2>Evaluatie</h2>
+            <input id="evaluatie" type="checkbox" class="opener">
+            <div id="evaluatie" class="VerdereUitleg">
+                Over de tijd terwijl ik dit heb gemaakt heb ik wel enorm veel geleerd. Ik wist van tevoren bijvoorbeeld compleet niet wat Assembly is, en terwijl ik dit maakte maakte dat enorm duidelijk wat de inner processen van CPU's nou eigenlijk zijn en wat CPU's eigenlijk doen. Als ik erover nadenk wat CPU's eigenlijk doen, van binnen, is het nogal ongelofelijk wat ze kunnen doen. Ze voeren biljoenen instructies per seconde uit, en wij noemen dat soms zelfs sloom als het onder de 2 biljoen zit. Mensen doen minstens seconden over een enekele berekening, maar CPU's doen een-biljoenste seconde erover.
+                <br>
+                <br>
+                Ik was voornamelijk bezig met de voorkennis, wat ook wel gepast is, er zijn veel dingen nodig om te weten voordat men kan beginnen met weten waar het over gaat. Ik wou dat dit gericht was zodat m'n moeder nog zou weten waar dingen over gingen zonder verward te raken terwijl ze het leest.
+                <br>
+                <br>
+                Ik heb geleerd dat ik compleet niet goed ben in mijn tijd verdelen, maar wel dat ik enorm veel werk onder stress. Ik werk het beste in een keer dan verdeeld over meerdere sessies. Het heeft me wel aangeleerd hoe ik meer werk in meerdere sessies, maar alsnog moet ik het nog wel beter aanleren. Ik werk niet al te goed in m'n thuisomgeving en werk vele malen sneller in een schoolomgeving. Daar is het wel uitermate beter om in sessies aan het werk te gaan dan in een keer.
+                <br>
+                <br>
+                Ik kwam erachter dat een SSH server initaliseren op m'n eigen server om dan op school Visual Studio te downloaden om op schoolcomputers te werken veel gemakkelijker was dan gedacht, dus kon er al veel eerder van tevoren aan gewerkt worden.
+                <br>
+                <br>
+                Het feit dat deze gehele pagina werkt zonder enige JavaScript is, in mijn opzicht, adembenemend. Iets wat waarschijnlijk niemand boeit behalve extreme nerds. CSS, een taal die niet wordt gezien als programmeertaal, heb ik gebruikt als programmeertaal voor alles op deze pagina. -- CSS gebruikt een 'counter', waarbij je het kan incrementeren met een bepaald aantal getallen naar wens. Deze kan dan weer gebruikt worden in de calc() functie om dan gebruikt te worden als variable in berekeningen. Dit kan dan weer in de content: functie gebruikt worden om de waarde weer te geven. Alles wat hier werkt met berekeningen maakt hier gebruik van en ik ben hier enorm trots op ookal boeit waarschijnlijk niemand anders dat.
+                <br>
+                <br>
+                Ik ben wel blij dat ik koos voor een website als formaat van PWS want dit is zo veel gemakkelijker om te veranderen, maken, stijlen en zelf gemaakte onderdelen aan toe te voegen dan een simpel .docx document. Bovendien kan ik makkelijk bijhouden hoeveel uren ik hier al aan had besteed met een simpel commando in de F12-console. Een docx bestand zou alleen maar zorgen voor irritatie en een saai eindproduct. Deze tekst is nu al meer interessanter dan een standaard .docx. Het test wel hoe m'n jaren aan ervaring met webdevelopment uiteindelijk naar dit eindproduct leidde.
+                <br>
+                <br>
+                Ik ben niet super trots op hoe de website eruit ziet maar ik ben er ook niet ontevreden mee. Ik zou het vast meer haten in de toekomst als er allemaal bewegende onderdelen in zitten en allemaal animaties en andere rotzooi die alleen ik, in het nu, zou waarderen, want dat gebeurt wel eens vaker. Alleen is het wel wat jammer dat ik nooit heb getest of de pagina werkt op mobiel, dus waarschijnlijk dus niet. (Nogal een standaard regel in Web Development, als het werkt op desktop, werkt het waarschijnlijk niet op mobiel, maar vice versa wel.)
+                <br>
+                <br>
+                Alle interactieve onderdelen, ben ik allemaal wel trots op. Ze kostten waarschijnlijk de meeste moeite van allemaal. Waarbij ik de logistieke berekeningen die ik heb geleerd heb moeten gebruiken om ze te programmeren in de achtergrond. Om te zien hoe ik het deed kan je in de .css kijken en het proberen te begrijpen. Het is heel veel <i class="notitie">als x dan y</i> logistiek.
+                <br>
+                <br>
+                Ik probeerde alles bij te houden qua bronnen, maar uiteindelijk werd dat ook wel een beetje een rotzooi met het bijhouden, gelukkig is het wel bij te houden ookal kost het wat moeite. Zoals dat sommige bronnen er wel zijn qua informatie maar niet uitgestipt zijn als bron in de tekst of in foto vorm.
+                <br>
+                <br>
+                Dit is waarschijnlijk wel de meeste moeite die ik in een singulaire webpagina heb gestopt, en ik ben in het algemeen wel tevreden met het eindproduct.
+            </div>
+        </div>
+    </main>
+    <footer>
+        <h2>Bronnen</h2>
+        <div>
+            <ol id="bronnen"><li id="bron1"><a href="https://www.newtondesk.com/wp-content/uploads/2018/12/silicon-electron-configuration.png">https://www.newtondesk.com/wp-content/uploads/2018/12/silicon-electron-configuration.png</a></li><li id="bron2"><a href="reversepcb.com/wp-content/uploads/2023/06/XOR-Gate-Symbol.png">reversepcb.com/wp-content/uploads/2023/06/XOR-Gate-Symbol.png</a></li><li id="bron3"><a href="https://www.youtube.com/watch?v=rA5qnZUXcqo">https://www.youtube.com/watch?v=rA5qnZUXcqo</a></li><li id="bron4"><a href="https://www.vedantu.com/question-sets/34cb5291-c2c8-4a5a-9b43-2bcfa76071606917240058642263338.png">https://www.vedantu.com/question-sets/34cb5291-c2c8-4a5a-9b43-2bcfa76071606917240058642263338.png</a></li><li id="bron5"><a href="https://commons.wikimedia.org/w/index.php?curid=1768533">https://commons.wikimedia.org/w/index.php?curid=1768533</a></li><li id="bron6"><a href="https://www.techpowerup.com/gpu-specs/geforce-gt-710.c1990">https://www.techpowerup.com/gpu-specs/geforce-gt-710.c1990</a></li><li id="bron7"><a href="https://www.tomshardware.com/pc-components/cpus/core-i9-14900kf-overclocked-to-9-13-ghz-to-become-the-highest-clocked-cpu-of-all-time-13-mhz-faster-than-the-previous-record-holder">https://www.tomshardware.com/pc-components/cpus/core-i9-14900kf-overclocked-to-9-13-ghz-to-become-the-highest-clocked-cpu-of-all-time-13-mhz-faster-than-the-previous-record-holder</a></li><li id="bron8"><a href="https://www.waferworld.com/post/how-cpus-are-made-from-si-wafer-to-silicon-brains">https://www.waferworld.com/post/how-cpus-are-made-from-si-wafer-to-silicon-brains</a></li><li id="bron9"><a href="https://clintonwhitehouse4.archives.gov/Initiatives/Millennium/capsule/mayo.html">https://clintonwhitehouse4.archives.gov/Initiatives/Millennium/capsule/mayo.html</a></li><li id="bron10"><a href="https://commons.wikimedia.org/w/index.php?curid=582690">https://commons.wikimedia.org/w/index.php?curid=582690</a></li><li id="bron11"><a href="https://cpumuseum.jimdofree.com/museum/others/cpus-on-board/">https://cpumuseum.jimdofree.com/museum/others/cpus-on-board/</a></li><li id="bron12"><a href="https://cpumuseum.jimdofree.com/museum/intel/8008/">https://cpumuseum.jimdofree.com/museum/intel/8008/</a></li><li id="bron13"><a href="https://chip.retromuseum.org/images/blogs/80386-1.png">https://chip.retromuseum.org/images/blogs/80386-1.png</a></li><li id="bron14"><a href="https://www.tomshw.it/storage/media/2025/10/73147/intel-i386-compie-40-anni-rivoluziono-il-pc-2025-10-20-jDBvCBilku8i5thg8sg0XBSZ3L.png">https://www.tomshw.it/storage/media/2025/10/73147/intel-i386-compie-40-anni-rivoluziono-il-pc-2025-10-20-jDBvCBilku8i5thg8sg0XBSZ3L.png</a></li><li id="bron15"><a href="https://chip.retromuseum.org/images/cpus/Intel/Intel_Pentium_4_1.5GHz_1.jpg">https://chip.retromuseum.org/images/cpus/Intel/Intel_Pentium_4_1.5GHz_1.jpg</a></li><li id="bron16"><a href="https://bardotbrush.com/wp-content/uploads/2019/07/Finger-Reference-Photo-Front-View.png">https://bardotbrush.com/wp-content/uploads/2019/07/Finger-Reference-Photo-Front-View.png</a></li><li id="bron17"><a href="https://lh3.googleusercontent.com/-Z4RzZ24yNqU/WF4ffuFFN4I/AAAAAAAA-pI/ol-npvcvl_YKk8IRVgkO4qN7RMcqcRCMwCHM/w1200-h630-p-k-no-nu/8008-die-adjusted.jpg">https://lh3.googleusercontent.com/-Z4RzZ24yNqU/WF4ffuFFN4I/AAAAAAAA-pI/ol-npvcvl_YKk8IRVgkO4qN7RMcqcRCMwCHM/w1200-h630-p-k-no-nu/8008-die-adjusted.jpg</a></li><li id="bron18"><a href="https://www.cpushack.com/wp-content/uploads/2010/09/6502.png">https://www.cpushack.com/wp-content/uploads/2010/09/6502.png</a></li><li id="bron19"><a href="https://www.icdrex.com/wp-content/uploads/2023/05/20230509182136.jpg">https://www.icdrex.com/wp-content/uploads/2023/05/20230509182136.jpg</a></li><li id="bron20"><a href="https://images.unsplash.com/photo-1686195165991-74af7c2918d5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEyfHxDUFV8ZW58MHx8fHwxNzMxNjE3MTg0fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000">https://images.unsplash.com/photo-1686195165991-74af7c2918d5?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3wxMTc3M3wwfDF8c2VhcmNofDEyfHxDUFV8ZW58MHx8fHwxNzMxNjE3MTg0fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=2000</a></li><li id="bron21"><a href="https://ajax.systems/api/cdn-img/?img=%2Fupload%2Foutlet_basic_type_f_xl_a715c3f0a2%402.jpg&amp;1718973074">https://ajax.systems/api/cdn-img/?img=%2Fupload%2Foutlet_basic_type_f_xl_a715c3f0a2%402.jpg&amp;1718973074</a></li><li id="bron22"><a href="https://en.wikipedia.org/wiki/Mains_electricity_by_country">https://en.wikipedia.org/wiki/Mains_electricity_by_country</a></li><li id="bron23"><a href="https://youtu.be/CW9N6kGbu2I">https://youtu.be/CW9N6kGbu2I</a></li><li id="bron24"><a href="https://youtu.be/lNuPy-r1GuQ">https://youtu.be/lNuPy-r1GuQ</a></li><li id="bron25"><a href="https://thumbs.dreamstime.com/b/steel-cable-texture-metal-rope-close-up-137945500.jpg">https://thumbs.dreamstime.com/b/steel-cable-texture-metal-rope-close-up-137945500.jpg</a></li><li id="bron26"><a href="https://media.s-bol.com/g1Y9pv9P5n9/1200x1028.jpg">https://media.s-bol.com/g1Y9pv9P5n9/1200x1028.jpg</a></li><li id="bron27"><a href="https://www.corsair.com/eu/nl/explorer/diy-builder/power-supply-units/which-psu-cables-go-where/">https://www.corsair.com/eu/nl/explorer/diy-builder/power-supply-units/which-psu-cables-go-where/</a></li><li id="bron28"><a href="https://hackaday.com/wp-content/uploads/2019/05/square-traces-featured.jpeg">https://hackaday.com/wp-content/uploads/2019/05/square-traces-featured.jpeg</a></li><li id="bron29"><a href="https://www.cpushack.com/wp-content/uploads/2018/03/SB-EPLayout.jpg">https://www.cpushack.com/wp-content/uploads/2018/03/SB-EPLayout.jpg</a></li><li id="bron30"><a href="https://cdn.wccftech.com/wp-content/uploads/2023/12/Intel-Core-Ultra-Meteor-Lake-Die-Shot-_-CPU-Compute-Tile-1.jpeg">https://cdn.wccftech.com/wp-content/uploads/2023/12/Intel-Core-Ultra-Meteor-Lake-Die-Shot-_-CPU-Compute-Tile-1.jpeg</a></li><li id="bron31"><a href="https://en.wikipedia.org/wiki/List_of_x86_instructions">https://en.wikipedia.org/wiki/List_of_x86_instructions</a></li></ol>
+        </div>
+        <h2>Logboek</h2>
+        <table>
+            <tbody>
+
+            <tr><th>13:17</th><th>14:14</th><th class="totaletijd">00:57</th><th>Wo 24 Sep</th><th>Logboek functie aanmaken en testen (het werkt), en het mooi maken van de pagina</th></tr><tr><th>11:49</th><th>12:34</th><th class="totaletijd">00:45</th><th>Vr 26 Sep</th><th>Voorpagina aanmaken, onderzoeksvraag bedenken</th></tr><tr><th>14:45</th><th>16:00</th><th class="totaletijd">01:15</th><th>Ma 5 Okt</th><th>nog meer voorpagina dingen, bronnenfunctie toevoegen</th></tr><tr><th>11:03</th><th>12:10</th><th class="totaletijd">01:07</th><th>Di 6 Okt</th><th>Verder werken aan voorpagina</th></tr><tr><th>14:24</th><th>15:10</th><th class="totaletijd">00:46</th><th>Di 6 Okt</th><th>Verder werken aan voorpagina</th></tr><tr><th>0:00</th><th>6:00</th><th class="totaletijd">06:00</th><th>---</th><th>Onderzoek voor Engels presentatie over PWS, geen specifieke data</th></tr><tr><th>10:10</th><th>12:10</th><th class="totaletijd">02:00</th><th>Wo 18 Feb</th><th>Tekst schrijven bij analoge calculatie en electron voorkennis</th></tr><tr><th>12:50</th><th>13:30</th><th class="totaletijd">00:40</th><th>Do 19 Feb</th><th>Onderdelen van de CPU</th></tr><tr><th>13:45</th><th>18:26</th><th class="totaletijd">04:41</th><th>Wo 11 Mar</th><th>Transistoren, interactieve onderdelen</th></tr><tr><th>15:40</th><th>18:26</th><th class="totaletijd">02:46</th><th>Do 12 Mar</th><th>Onderzoek CPU</th></tr><tr><th>12:10</th><th>18:00</th><th class="totaletijd">05:50</th><th>Vr 13 Mar</th><th>Onderzoek CPU</th></tr><tr><th>20:00</th><th>23:59</th><th class="totaletijd">03:59</th><th>Vr 13 Mar</th><th>Onderzoek CPU, toevoeging interactief</th></tr><tr><th>00:00</th><th>2:57</th><th class="totaletijd">02:57</th><th>Za 14 Mar</th><th>Vervolg van vorige sessie, maar moest het eindigen op 23:59 vanwege technische redenen</th></tr><tr><th>13:00</th><th>16:00</th><th class="totaletijd">03:00</th><th>Za 14 Mar</th><th>Binair</th></tr><tr><th>12:50</th><th>16:00</th><th class="totaletijd">03:10</th><th>Zo 15 Mar</th><th>Binair</th></tr><tr><th>20:30</th><th>23:59</th><th class="totaletijd">03:29</th><th>Zo 15 Mar</th><th>Binair</th></tr><tr><th>19:43</th><th>23:59</th><th class="totaletijd">04:16</th><th>Vr 27 Mar</th><th>Het pad van een electron door een computer</th></tr><tr><th>00:00</th><th>3:39</th><th class="totaletijd">03:39</th><th>Za 28 Mar</th><th>Het pad van een electron door een computer</th></tr><tr><th>10:35</th><th>18:00</th><th class="totaletijd">07:25</th><th>Za 28 Mar</th><th>Video's lokaal maken i.p.v. YouTube. Onderzoek naar hoofdzakelijke dingen.</th></tr><tr><th>12:54</th><th>17:43</th><th class="totaletijd">04:49</th><th>Di 14 Apr</th><th>Schrijven van tekst over het pad van een elektron.</th></tr><tr><th>13:04</th><th>23:59</th><th class="totaletijd">10:55</th><th>Wo 15 Apr</th><th>Schrijven van tekst over het pad van een elektron.</th></tr></tbody>
+        </table>
+    </footer>
+</body>
+<!-- <script>
+    fetch('./logboek.json').then(logs=>{
+        logs.json().then(yippie=>{
+            yippie?.logboek.forEach(element=>{
+                maakTabel(element);
+                return;
+            });
+        }).catch(err=>{
+            maakError(err);
+            return;
+        });
+    }).catch(err=>{
+        maakError(err);
+        return;
+    });
+
+    let rotgetal = 1;
+    fetch('./bronnen.json').then(logs=>{
+        logs.json().then(yippie=>{
+            yippie?.forEach(element=>{
+                maakBronnen(element, rotgetal);
+                rotgetal += 1;
+                return;
+            });
+        }).catch(err=>{
+            maakError(err);
+            return;
+        });
+    }).catch(err=>{
+        maakError(err);
+        return;
+    });
+
+    function maakBronnen(bron, getal){
+        let li = document.createElement('li');
+        let a = document.createElement('a');
+        a.innerHTML = bron;
+        a.href = bron;
+        li.append(a);
+        li.id = `bron${getal}`
+        document.querySelector('ol#bronnen').append(li);
+        return;
+    }
+
+    function maakTabel(log){
+        console.log(log);
+        let tr = document.createElement('tr');
+        let begintijd = document.createElement('th');
+        begintijd.innerHTML = log.begintijd;
+        let eindtijd = document.createElement('th');
+        eindtijd.innerHTML = log.eindtijd;
+        let totaletijd = document.createElement('th');
+        totaletijd.innerHTML = berekenTijd(log.begintijd, log.eindtijd);
+        totaletijd.classList.add('totaletijd');
+        let datum = document.createElement('th');
+        datum.innerHTML = log.datum;
+        let reden = document.createElement('th');
+        reden.innerHTML = log.reden;
+
+        tr.append(begintijd);
+        tr.append(eindtijd);
+        tr.append(totaletijd);
+        tr.append(datum);
+        tr.append(reden);
+
+        document.querySelector('tbody').append(tr);
+    };
+
+    function berekenTijd(x,y){
+        let uren = { begin: parseInt(x.slice(0,2))*60, eind: parseInt(y.slice(0,2))*60 }
+        let minuten = { begin: parseInt(x.slice(-2)), eind: parseInt(y.slice(-2)) }
+        console.log(uren, minuten);
+
+        let rekenen = {begin: uren.begin+minuten.begin, eind: uren.eind+minuten.eind};
+        let delta = rekenen.eind - rekenen.begin;
+
+        return `${(delta-(delta%60))/60 < 10?'0'+(delta-(delta%60))/60:(delta-(delta%60))/60}:${(delta)%60<10?'0'+(delta)%60:(delta)%60}`;
+    };
+
+    function berekenTotaleTijd(){
+        let totaleminuten = 0;
+        document.querySelectorAll('th.totaletijd').forEach(tijden=>{
+            let uren = parseInt(tijden.innerHTML.slice(0,2))*60;
+            let minuten = parseInt(tijden.innerHTML.slice(-2));
+            totaleminuten += uren;
+            totaleminuten += minuten;
+        });
+
+        return `${(totaleminuten-(totaleminuten%60))/60 < 10?'0'+(totaleminuten-(totaleminuten%60))/60:(totaleminuten-(totaleminuten%60))/60}:${(totaleminuten)%60<10?'0'+(totaleminuten)%60:(totaleminuten)%60}`;
+    }
+    
+    function maakError(err){
+        let whoopsie = document.createElement('p');
+        whoopsie.innerHTML = `Whoopsie, er ging iets fout, namelijk: ${err}`;
+        document.body.innerHTML = '';
+        document.body.append(whoopsie);
+        return;
+    };
+
+
+</script> -->
+</html>

@@ -1,0 +1,130 @@
+{
+    "logboek": [
+        {
+            "begintijd": "13:17",
+            "eindtijd": "14:14",
+            "reden": "Logboek functie aanmaken en testen (het werkt), en het mooi maken van de pagina",
+            "datum": "Wo 24 Sep"
+        },
+        {
+            "begintijd": "11:49",
+            "eindtijd": "12:34",
+            "reden": "Voorpagina aanmaken, onderzoeksvraag bedenken",
+            "datum": "Vr 26 Sep"
+        },
+        {
+            "begintijd": "14:45",
+            "eindtijd": "16:00",
+            "reden": "nog meer voorpagina dingen, bronnenfunctie toevoegen",
+            "datum": "Ma 5 Okt"
+        },
+        {
+            "begintijd": "11:03",
+            "eindtijd": "12:10",
+            "reden": "Verder werken aan voorpagina",
+            "datum": "Di 6 Okt"
+        },
+        {
+            "begintijd": "14:24",
+            "eindtijd": "15:10",
+            "reden": "Verder werken aan voorpagina",
+            "datum": "Di 6 Okt"
+        },
+        {
+            "begintijd": "0:00",
+            "eindtijd": "6:00",
+            "reden": "Onderzoek voor Engels presentatie over PWS, geen specifieke data",
+            "datum": "---"
+        },
+        {
+            "begintijd": "10:10",
+            "eindtijd": "12:10",
+            "reden": "Tekst schrijven bij analoge calculatie en electron voorkennis",
+            "datum": "Wo 18 Feb"
+        },
+        {
+            "begintijd": "12:50",
+            "eindtijd": "13:30",
+            "reden": "Onderdelen van de CPU",
+            "datum": "Do 19 Feb"
+        },
+        {
+            "begintijd": "13:45",
+            "eindtijd": "18:26",
+            "reden": "Transistoren, interactieve onderdelen",
+            "datum": "Wo 11 Mar"
+        },
+        {
+            "begintijd": "15:40",
+            "eindtijd": "18:26",
+            "reden": "Onderzoek CPU",
+            "datum": "Do 12 Mar"
+        },
+        {
+            "begintijd": "12:10",
+            "eindtijd": "18:00",
+            "reden": "Onderzoek CPU",
+            "datum": "Vr 13 Mar"
+        },
+        {
+            "begintijd": "20:00",
+            "eindtijd": "23:59",
+            "reden": "Onderzoek CPU, toevoeging interactief",
+            "datum": "Vr 13 Mar"
+        },
+        {
+            "begintijd": "00:00",
+            "eindtijd": "2:57",
+            "reden": "Vervolg van vorige sessie, maar moest het eindigen op 23:59 vanwege technische redenen",
+            "datum": "Za 14 Mar"
+        },
+        {
+            "begintijd": "13:00",
+            "eindtijd": "16:00",
+            "reden": "Binair",
+            "datum": "Za 14 Mar"
+        },
+        {
+            "begintijd": "12:50",
+            "eindtijd": "16:00",
+            "reden": "Binair",
+            "datum": "Zo 15 Mar"
+        },
+        {
+            "begintijd": "20:30",
+            "eindtijd": "23:59",
+            "reden": "Binair",
+            "datum": "Zo 15 Mar"
+        },
+        {
+            "begintijd": "19:43",
+            "eindtijd": "23:59",
+            "reden": "Het pad van een electron door een computer",
+            "datum": "Vr 27 Mar"
+        },
+        {
+            "begintijd": "00:00",
+            "eindtijd": "3:39",
+            "reden": "Het pad van een electron door een computer",
+            "datum": "Za 28 Mar"
+        },
+        {
+            "begintijd": "10:35",
+            "eindtijd": "18:00",
+            "reden": "Video's lokaal maken i.p.v. YouTube. Onderzoek naar hoofdzakelijke dingen.",
+            "datum": "Za 28 Mar"
+        },
+        {
+            "begintijd": "12:54",
+            "eindtijd": "17:43",
+            "reden": "Schrijven van tekst over het pad van een elektron.",
+            "datum": "Di 14 Apr"
+        },
+        {
+            "begintijd": "13:04",
+            "eindtijd": "23:59",
+            "reden": "Schrijven van tekst over het pad van een elektron.",
+            "datum": "Wo 15 Apr"
+        }
+    ]
+}
